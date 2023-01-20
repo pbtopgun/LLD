@@ -6,7 +6,7 @@ import CaseStudy.TicTacToe.strategy.EasyBotMoveStrategy;
 import CaseStudy.TicTacToe.strategy.MedBotMoveStrategy;
 
 public class BotMoveStrategyFactory {
-    BotMoveStrategy getInstance(BotDifficultyLevel botDifficultyLevel) {
+    public static BotMoveStrategy getInstance(BotDifficultyLevel botDifficultyLevel) {
         if(botDifficultyLevel == BotDifficultyLevel.MED) {
             return new MedBotMoveStrategy();    
         }

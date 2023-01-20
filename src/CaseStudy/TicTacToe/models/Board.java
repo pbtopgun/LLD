@@ -42,5 +42,9 @@ public class Board {
         this.matrix = matrix;
     }
 
+    public void display() {
+        //Print the matrix for user
+    }
+
     
 }

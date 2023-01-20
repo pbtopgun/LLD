@@ -5,6 +5,12 @@ public abstract class Player {
     private Symbol symbol;
     private PlayerType playerType;
 
+    public Player(String name, Symbol symbol,PlayerType type) {
+        this.symbol = symbol;
+        this.playerType = type;
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
@@ -24,5 +30,7 @@ public abstract class Player {
     public void setPlayerType(PlayerType playerType) {
         this.playerType = playerType;
     }
+
+    public abstract Move makeMove(Board board);
 
 }
