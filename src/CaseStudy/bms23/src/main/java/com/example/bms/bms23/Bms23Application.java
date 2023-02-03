@@ -11,3 +11,7 @@ public class Bms23Application {
     }
 
 }
+
+
+//Homework
+//Implement an Admin Scenario to CRUD on theatres, Seats!!!
